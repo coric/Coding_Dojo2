@@ -5,8 +5,87 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Coding_Dojo2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="525" Background="black">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="75"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+
+        <Border Margin="10" BorderBrush="Red" BorderThickness="1"> <!-- Kopfzeile erstellen -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Image Margin="5" Height="20" Width="20" Source="Images/Warning-WF.png"/>
+                <Label Content="Überlauf Grauwasser" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="10" Foreground="White"/>
+            </StackPanel>
+        </Border>
+
+        <Label Grid.Row="2"  Content="...tbd..." VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="10" Foreground="White"></Label>
+
+        <Border Grid.RowSpan="2" Margin="3" Grid.Column="1" BorderThickness="1,0,0,0" BorderBrush="Gray"> <!-- Vertikale graue Linie -->
+
+            <Grid Height="315" VerticalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel  Orientation="Vertical"> 
+                    <Border BorderThickness="0,0,0,1" BorderBrush="Gray">  <!-- 1. Anzeige -->
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal" Height="25">
+                                <Image Margin="10,4,5,1" Height="15" Source="Images/Cloud sun02-WF.png"/>
+                                <Label Content="20 °" VerticalAlignment="Center"  FontSize="8" Foreground="White"/>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal" Height="25">
+                                <Image Margin="10,4,5,1" Height="15" Source="Images/Wind.png"/>
+                                <Label Content="12 km/h" VerticalAlignment="Center"  FontSize="8" Foreground="White"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+
+                    <Border BorderThickness="0,0,0,1" BorderBrush="LightGray"> <!-- 2. Anzeige-->
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal" Height="25">
+                                <Image Margin="10,4,5,1" Height="15" Source="Images/Solar.png"/>
+                            <Label Content="3.545 W" VerticalAlignment="Center"  FontSize="8" Foreground="White"/>
+                        </StackPanel>
+
+                        <StackPanel Orientation="Horizontal" Height="25">
+                            <Image Margin="10,4,5,1" Height="15"  Source="Images/Man-01.png"/>
+                            <Label Content="0" VerticalAlignment="Center"  FontSize="8" Foreground="White"/>
+                        </StackPanel>
+
+                            <StackPanel Orientation="Horizontal" Height="25">
+                                <Image Margin="10,4,5,1" Height="15"  Source="Images/Lock-WF.png"/>
+                                <Label Content="OK" VerticalAlignment="Center" FontSize="8" Foreground="White"/>
+                            </StackPanel>
+                        </StackPanel>
+                     </Border>
+
+                    <Border BorderThickness="0,0,0,1" BorderBrush="LightGray"> <!-- 3. Anzeige -->
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal" Height="25">
+                                <Image Margin="10,4,5,1" Height="15" Source="Images/Message Mail-WF.png"/>
+                                <Label Content="7" VerticalAlignment="Center" FontSize="8" Foreground="White"/>
+                            </StackPanel>
+
+                            <StackPanel Orientation="Horizontal" Height="25">
+                                <Image Margin="10,4,5,1" Height="15" Source="Images/Tasks.png"/>
+                                <Label Content="4" VerticalAlignment="Center" FontSize="8" Foreground="White"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </Border>
+
+
+                </StackPanel>
+            </Grid>
+        </Border>
+
     </Grid>
 </Window>
