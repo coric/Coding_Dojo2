@@ -1,0 +1,8 @@
+C:\Users\nermin\source\repos\Coding_Dojo2\Coding_Dojo2\obj\Debug\CodingDojo2.csprojResolveAssemblyReference.cache
+C:\Users\nermin\source\repos\Coding_Dojo2\Coding_Dojo2\obj\Debug\MainWindow.g.cs
+C:\Users\nermin\source\repos\Coding_Dojo2\Coding_Dojo2\obj\Debug\App.g.cs
+C:\Users\nermin\source\repos\Coding_Dojo2\Coding_Dojo2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\nermin\source\repos\Coding_Dojo2\Coding_Dojo2\obj\Debug\Coding_Dojo2_MarkupCompile.cache
+C:\Users\nermin\source\repos\Coding_Dojo2\Coding_Dojo2\obj\Debug\Coding_Dojo2_MarkupCompile.lref
+C:\Users\nermin\source\repos\Coding_Dojo2\Coding_Dojo2\obj\Debug\Coding_Dojo2.exe
+C:\Users\nermin\source\repos\Coding_Dojo2\Coding_Dojo2\obj\Debug\Coding_Dojo2.pdb
